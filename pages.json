@@ -1,0 +1,119 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+
+      "path": "pages/collection/collection",
+      "style": {
+        "navigationBarTitleText": "收藏"
+      }
+    },
+    {
+      "path": "pages/details/details",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/comment/comment",
+      "style": {
+        "navigationBarTitleText": "全部评论"
+      }
+    },
+    {
+      "path": "pages/map/map",
+      "style": {
+        "navigationBarTitleText": "地图"
+      }
+    },
+    {
+      "path": "pages/CancelPolicy/CancelPolicy",
+      "style": {
+        "navigationBarTitleText": "取消政策"
+      }
+    },
+    {
+      "path": "pages/OrderSubmit/OrderSubmit",
+      "style": {
+        "navigationBarTitleText": "订单信息"
+      }
+    },
+    {
+      "path": "pages/taking/taking",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "日租房源"
+      }
+    },
+    {
+      "path": "pages/CitySelect/CitySelect",
+      "style": {
+        "navigationBarTitleText": "城市"
+      }
+    },
+    {
+      "path": "pages/Chat/Chat",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    }
+  ],
+  "globalStyle": { //顶部导航栏的配置
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fafafa",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": { //底部导航栏的配置
+    "color": "#999794",
+    "selectedColor": "#5451BD", //选中后的颜色
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "iconPath": "static/zhuye.png",
+        "selectedIconPath": "static/szhuye.png",
+        "text": "首页"
+      }, {
+        "pagePath": "pages/collection/collection",
+        "iconPath": "static/xihuan.png",
+        "selectedIconPath": "static/sxihuan.png",
+        "text": "收藏"
+      }, {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/hudongliaotian.png",
+        "selectedIconPath": "static/shudongliaotian.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/swode.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

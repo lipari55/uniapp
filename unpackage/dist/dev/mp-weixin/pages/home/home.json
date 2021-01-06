@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "uni-date-selecter": "/components/uni-date-selecter/uni-date-selecter",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}
