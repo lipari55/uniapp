@@ -1,0 +1,1 @@
+<view><test vue-id="50cad900-1" bind:__l="__l" vue-slots="{{['default']}}">搜索页面</test></view>

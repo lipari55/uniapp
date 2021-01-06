@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-fav": "/components/uni-fav/uni-fav",
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "uni-goods-nav": "/components/uni-goods-nav/uni-goods-nav"
+  }
+}
